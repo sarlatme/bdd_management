@@ -3,7 +3,7 @@
 	<head>
     	<meta charset="utf-8"/>
     	<link rel="stylesheet" type="text/css" href="style/accueil.css"/> 	<!-- Reference fichier .css -->
-        <title>Acceuil</title>
+        <title>Site de dessin</title>
 	</head>
 	<body>
         <nav class="navbar">
@@ -11,9 +11,9 @@
             <div class="nav-links">
                 <ul>
                     <li class="active"><a href="#">Accueil / Connexion</a></li>
-                    <li><a href="#">Information</a></li>
-                    <li><a href="#">Calendrier</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="./content/public/information.html">Informations</a></li>
+                    <li><a href="./content/public/calendrier.html">Calendrier</a></li>
+                    <li><a href="./content/public/contact.html">Contacts</a></li>
                 </ul>
             </div>
         </nav>
@@ -26,13 +26,15 @@
                 </div>
             </section>
             <section class="col2">
-                <form>
+                <!-- Future call of the connexion.php function to verify the argument -->
+                <form action="./content/menu.html" method="POST"> 
                     <p>Bienvenue</p>
-                    <input type="mail" placeholder="Mail"><br>
-                    <input type="password" placeholder="Password"><br>
-                    <input type="button" value="Connexion"><br>
+                    <input type="mail" placeholder="Mail" name="mail" required><br>
+                    <input type="password" placeholder="Password" name="password" required><br>
+                    <!-- <input type="submit" value="Connexion" /><br> -->
+                    <button type="submit">Connexion</button><br>
                     <a href="#">Password forgot</a><br>
-                    <a href="contenu/adduser.php">Inscription</a>
+                    <a href="#">Inscription</a>
                 </form>
             </section>
         </section>
