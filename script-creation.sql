@@ -34,6 +34,7 @@ CREATE TABLE siteweb.Utilisateur (
     login VARCHAR(50) NOT NULL,
     motDePasse VARCHAR(50) NOT NULL,
     numClub INT,
+    dateLicense DATE,
     PRIMARY KEY (numUtilisateur),
     FOREIGN KEY (numClub) REFERENCES Club(numClub)
 );
@@ -89,8 +90,10 @@ CREATE TABLE siteweb.Concours (
     dateFin DATE,
     etat ENUM('pas commence', 'en cours', 'attente', 'resultat', 'evalue'),
     numPresident INT,
+    numClubOrganisateur INT,
     PRIMARY KEY (numConcours),
-    FOREIGN KEY (numPresident) REFERENCES President(numPresident)
+    FOREIGN KEY (numPresident) REFERENCES President(numPresident),
+    FOREIGN KEY (numClubOrganisateur) REFERENCES Club(numClub)
 );
 
 CREATE TABLE siteweb.ParticipeClub (
