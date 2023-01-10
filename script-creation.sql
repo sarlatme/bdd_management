@@ -31,7 +31,7 @@ CREATE TABLE siteweb.Utilisateur (
     prenom VARCHAR(50) NOT NULL,
     age INT NOT NULL,
     adresse VARCHAR(50) NOT NULL,
-    login VARCHAR(50) NOT NULL,
+    email VARCHAR(50) NOT NULL,
     motDePasse VARCHAR(50) NOT NULL,
     numClub INT,
     dateLicense DATE,
