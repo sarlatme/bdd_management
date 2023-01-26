@@ -601,23 +601,24 @@ INSERT INTO Competiteur(numCompetiteur,datePremiereParticipation) VALUES(260,'20
 INSERT INTO Competiteur(numCompetiteur,datePremiereParticipation) VALUES(261,'2021-04-01');
 
 INSERT INTO Concours(numConcours,theme,descriptif,dateDebut,dateFin,etat,numPresident,numClubOrganisateur) VALUES(1,'hiver','placeholder','2019-01-01','2019-03-01','evalue',182,20);
-INSERT INTO Concours(numConcours,theme,descriptif,dateDebut,dateFin,etat,numPresident,numClubOrganisateur) VALUES(2,'printemps','placeholder','2019-04-01','2019-06-01','resultat',112,13);
-INSERT INTO Concours(numConcours,theme,descriptif,dateDebut,dateFin,etat,numPresident,numClubOrganisateur) VALUES(3,'été','placeholder','2019-07-01','2019-09-01','en cours',82,10);
-INSERT INTO Concours(numConcours,theme,descriptif,dateDebut,dateFin,etat,numPresident,numClubOrganisateur) VALUES(4,'automne','placeholder','2019-10-01','2019-12-01','pas commence',72,9);
-INSERT INTO Concours(numConcours,theme,descriptif,dateDebut,dateFin,etat,numPresident,numClubOrganisateur) VALUES(5,'hiver','placeholder','2020-01-01','2020-03-01','',82,10);
-INSERT INTO Concours(numConcours,theme,descriptif,dateDebut,dateFin,etat,numPresident,numClubOrganisateur) VALUES(6,'printemps','placeholder','2020-04-01','2020-06-01','',212,23);
-INSERT INTO Concours(numConcours,theme,descriptif,dateDebut,dateFin,etat,numPresident,numClubOrganisateur) VALUES(7,'été','placeholder','2020-07-01','2020-09-01','',122,14);
-INSERT INTO Concours(numConcours,theme,descriptif,dateDebut,dateFin,etat,numPresident,numClubOrganisateur) VALUES(8,'automne','placeholder','2020-10-01','2020-12-01','',262,28);
-INSERT INTO Concours(numConcours,theme,descriptif,dateDebut,dateFin,etat,numPresident,numClubOrganisateur) VALUES(9,'hiver','placeholder','2021-01-01','2021-03-01','',52,7);
-INSERT INTO Concours(numConcours,theme,descriptif,dateDebut,dateFin,etat,numPresident,numClubOrganisateur) VALUES(10,'printemps','placeholder','2021-04-01','2021-06-01','',262,28);
-INSERT INTO Concours(numConcours,theme,descriptif,dateDebut,dateFin,etat,numPresident,numClubOrganisateur) VALUES(11,'été','placeholder','2021-07-01','2021-09-01','',132,15);
-INSERT INTO Concours(numConcours,theme,descriptif,dateDebut,dateFin,etat,numPresident,numClubOrganisateur) VALUES(12,'automne','placeholder','2021-10-01','2021-12-01','',32,5);
-INSERT INTO Concours(numConcours,theme,descriptif,dateDebut,dateFin,etat,numPresident,numClubOrganisateur) VALUES(13,'hiver','placeholder','2022-01-01','2022-03-01','',82,10);
-INSERT INTO Concours(numConcours,theme,descriptif,dateDebut,dateFin,etat,numPresident,numClubOrganisateur) VALUES(14,'printemps','placeholder','2022-04-01','2022-06-01','',192,21);
-INSERT INTO Concours(numConcours,theme,descriptif,dateDebut,dateFin,etat,numPresident,numClubOrganisateur) VALUES(15,'été','placeholder','2022-07-01','2022-09-01','',202,22);
-INSERT INTO Concours(numConcours,theme,descriptif,dateDebut,dateFin,etat,numPresident,numClubOrganisateur) VALUES(16,'automne','placeholder','2022-10-01','2022-12-01','',152,17);
-INSERT INTO Concours(numConcours,theme,descriptif,dateDebut,dateFin,etat,numPresident,numClubOrganisateur) VALUES(17,'hiver','placeholder','2023-01-01','2023-03-01','',202,22);
-INSERT INTO Concours(numConcours,theme,descriptif,dateDebut,dateFin,etat,numPresident,numClubOrganisateur) VALUES(18,'printemps','placeholder','2023-04-01','2023-06-01','',272,29);
+INSERT INTO Concours(numConcours,theme,descriptif,dateDebut,dateFin,etat,numPresident,numClubOrganisateur) VALUES(2,'printemps','placeholder','2019-04-01','2019-06-01','evalue',112,13);
+INSERT INTO Concours(numConcours,theme,descriptif,dateDebut,dateFin,etat,numPresident,numClubOrganisateur) VALUES(3,'été','placeholder','2019-07-01','2019-09-01','evalue',82,10);
+INSERT INTO Concours(numConcours,theme,descriptif,dateDebut,dateFin,etat,numPresident,numClubOrganisateur) VALUES(4,'automne','placeholder','2019-10-01','2019-12-01','evalue',72,9);
+INSERT INTO Concours(numConcours,theme,descriptif,dateDebut,dateFin,etat,numPresident,numClubOrganisateur) VALUES(5,'hiver','placeholder','2020-01-01','2020-03-01','evalue',82,10);
+INSERT INTO Concours(numConcours,theme,descriptif,dateDebut,dateFin,etat,numPresident,numClubOrganisateur) VALUES(6,'printemps','placeholder','2020-04-01','2020-06-01','evalue',212,23);
+INSERT INTO Concours(numConcours,theme,descriptif,dateDebut,dateFin,etat,numPresident,numClubOrganisateur) VALUES(7,'été','placeholder','2020-07-01','2020-09-01','evalue',122,14);
+INSERT INTO Concours(numConcours,theme,descriptif,dateDebut,dateFin,etat,numPresident,numClubOrganisateur) VALUES(8,'automne','placeholder','2020-10-01','2020-12-01','evalue',262,28);
+INSERT INTO Concours(numConcours,theme,descriptif,dateDebut,dateFin,etat,numPresident,numClubOrganisateur) VALUES(9,'hiver','placeholder','2021-01-01','2021-03-01','evalue',52,7);
+INSERT INTO Concours(numConcours,theme,descriptif,dateDebut,dateFin,etat,numPresident,numClubOrganisateur) VALUES(10,'printemps','placeholder','2021-04-01','2021-06-01','evalue',262,28);
+INSERT INTO Concours(numConcours,theme,descriptif,dateDebut,dateFin,etat,numPresident,numClubOrganisateur) VALUES(11,'été','placeholder','2021-07-01','2021-09-01','evalue',132,15);
+INSERT INTO Concours(numConcours,theme,descriptif,dateDebut,dateFin,etat,numPresident,numClubOrganisateur) VALUES(12,'automne','placeholder','2021-10-01','2021-12-01','evalue',32,5);
+INSERT INTO Concours(numConcours,theme,descriptif,dateDebut,dateFin,etat,numPresident,numClubOrganisateur) VALUES(13,'hiver','placeholder','2022-01-01','2022-03-01','evalue',82,10);
+INSERT INTO Concours(numConcours,theme,descriptif,dateDebut,dateFin,etat,numPresident,numClubOrganisateur) VALUES(14,'printemps','placeholder','2022-04-01','2022-06-01','evalue',192,21);
+INSERT INTO Concours(numConcours,theme,descriptif,dateDebut,dateFin,etat,numPresident,numClubOrganisateur) VALUES(15,'été','placeholder','2022-07-01','2022-09-01','evalue',202,22);
+INSERT INTO Concours(numConcours,theme,descriptif,dateDebut,dateFin,etat,numPresident,numClubOrganisateur) VALUES(16,'automne','placeholder','2022-10-01','2022-12-01','resultat',152,17);
+INSERT INTO Concours(numConcours,theme,descriptif,dateDebut,dateFin,etat,numPresident,numClubOrganisateur) VALUES(17,'hiver','placeholder','2023-01-01','2023-03-01','en cours',202,22);
+INSERT INTO Concours(numConcours,theme,descriptif,dateDebut,dateFin,etat,numPresident,numClubOrganisateur) VALUES(18,'printemps','placeholder','2023-04-01','2023-06-01','pas commence',272,29);
+
 
 INSERT INTO ParticipeClub(numClub,numConcours) VALUES(12,1);
 INSERT INTO ParticipeClub(numClub,numConcours) VALUES(13,1);
